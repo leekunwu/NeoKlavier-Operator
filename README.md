@@ -1,4 +1,4 @@
-# NeoKlavier Operator — v0.2
+# NeoKlavier Operator — v0.3
 
 외부 MIDI 장치와 로컬 MIDI 파일 플레이리스트를 이용하는 공연·리허설용 브라우저 플레이백 도구입니다.
 
@@ -113,3 +113,10 @@ MIDI 파싱에는 MIT 라이선스의 [midi-file 1.2.4](https://github.com/carte
 API 참고: [W3C Web MIDI](https://www.w3.org/TR/webmidi/), [Web Audio](https://www.w3.org/TR/webaudio/).
 
 한글 SUITE는 SUNN의 SIL Open Font License 1.1 서체입니다. 원본 파일을 수정하지 않고 내장했으며 허가문은 HTML 및 THIRD_PARTY_LICENSES.txt에 포함했습니다.
+
+## v0.3
+
+- 코발트 블루 #356BFF, NeoKlavier와 메인 트랙 제목 굵기 900.
+- No Output: 음원/MIDI 출력 없이 큐·재생 시간·다이내믹 시각화만 실행.
+- 벨로시티 64에서 불투명도 85%, 100–110 파랑→Pre-roll 앰버, 110–120 앰버→Error 빨강.
+- 변경된 운영 설정은 파란색 표시. 기본값 리셋은 재생을 정지하고 프리롤·갭 0, 속도·벨로시티 100%, 자동 진행 Off, Grand Piano, 리버브 0%로 복원. 장치 선택과 페달 매핑은 유지.
